@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Stampede</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-bar">Issue 01 is now published online!</div>
+
+  <header>
+    <h1>The Stampede</h1>
+    <p>The Rancho Bernardo Newspaper</p>
+  </header>
+
+  <nav>
+    <button id="menuBtn">☰ Menu</button>
+    <div id="navLinks">
+      <a href="#" data-category="All">HOME</a>
+      <a href="#" data-category="About">ABOUT</a>
+      <a href="#" data-category="Campus">SCHOOL</a>
+      <a href="#" data-category="Arts">ARTS</a>
+      <a href="#" data-category="Opinion">OPINION</a>
+      <a href="#" data-category="Sports">SPORTS</a>
+    </div>
+  </nav>
+
+  <section class="search-area">
+    <input id="searchInput" type="text" placeholder="Search articles..." />
+  </section>
+
+  <main class="layout">
+    <section class="main-content">
+      <article id="featured" class="featured"></article>
+
+      <h3 class="section-title" id="sectionTitle">Latest Stories</h3>
+      <div id="articleGrid" class="grid"></div>
+    </section>
+
+    <aside>
+      <h3>Trending</h3>
+      <ol id="trendingList"></ol>
+
+      <h3>Media</h3>
+      <div class="media-box">Instagram / Spotify Embed</div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2026 The Stampede</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
