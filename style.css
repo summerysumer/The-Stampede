@@ -21,8 +21,9 @@ body {
   background: var(--royal-blue);
   color: var(--white);
   text-align: center;
-  padding: 8px;
+  padding: 8px 20px;
   font-size: 14px;
+  text-align: left;
 }
 
 header {
