@@ -237,3 +237,34 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: var(--white);
+  min-width: 190px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  text-align: left;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 12px 14px;
+  margin: 0;
+  color: var(--dark-text);
+}
+
+.dropdown-content a:hover {
+  background: var(--light-gray);
+  color: var(--royal-blue);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
